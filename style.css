@@ -1,0 +1,135 @@
+body {
+           margin: 0;
+           background-color: #5d99ee;
+           color: white;
+           text-align: left;
+           font-size: 13px;
+           line-height: 1.4em;
+           font-family: ibm-plex-sans, sans-serif;
+           font-weight: 400;
+           font-style: normal;
+           z-index: auto;
+         }
+
+         .split {
+          height: 100%;
+          width: 50%;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          overflow-x: hidden;
+          padding-top: 20px;
+        }
+        
+        /* Control the left side */
+        .left {
+          left: 0;
+          background-color: white;
+          overflow: hidden;
+        }
+        
+        .right {
+          right: 0;
+        
+        }
+
+
+         a {
+           color: #EC3900;
+         }
+
+         h1 {
+           font-size: 26px;
+           font-family: roc-grotesk-extrawide, sans-serif;
+           font-weight: 400;
+           font-style: normal;
+           stroke: 1px;
+           stroke-color: #ff89b5;
+           fill: none;
+           color: #5d99ee;
+         }
+
+         h2 {
+           font-size: 26px;
+           font-family: roc-grotesk-extrawide, sans-serif;
+           font-weight: 400;
+           font-style: normal;
+           stroke: 1px;
+           stroke-color: #5d99ee;
+           fill: none;
+           color: #ff89b5;
+         }
+
+         #week2{
+           text-align: left;
+           margin-left: 10vw;
+           width: 34vw;
+         }
+
+         #week3{
+           height: 40vh;
+         }
+
+         #week4{
+           height: 48.6vh;
+         }
+
+         .block{
+           background-color: #ff89b5;
+           width: 30vw;
+           box-shadow: 2px 2px 15px;
+           border-radius: 25px;
+           color: white;
+           margin-left: 10vw;
+           margin-top: 5vh;
+           padding: 30px;
+           overflow: scroll;
+           height: 30vh;
+         }
+
+         .star1{
+           margin-top: -50vh;
+           margin-left: 0vw;
+           position: relative;
+           z-index: -10
+         }
+
+         .star2{
+           transform: rotate(-20deg);
+           margin-left: 25vw;
+           margin-top: -55vh;
+           z-index: -10;
+           position: absolute;
+         }
+
+         .sparkles{
+          margin-left: 4vw;
+          margin-top: 7vh;
+          position: absolute;
+          z-index: -20;
+         }
+
+         .sparkles2{
+          margin-left: 4vw;
+          margin-top: -40vh;
+          position: absolute;
+          z-index: -20;
+          transform: rotate(20deg);
+         }
+
+         #container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(imgs/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#shuffle {
+    position: absolute;
+    margin: 10px;
+}
+
+
