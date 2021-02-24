@@ -75,9 +75,15 @@ body {
          }
 
          #week4{
-           height: 48.6vh;
-           overflow: hidden;
+           text-align: left;
+           margin-left: 10vw;
+           width: 34vw;
          }
+
+         #week5{
+           height: 48vh;
+         }
+
 
          .block{
            background-color: #ff89b5;
@@ -135,14 +141,6 @@ body {
 #shuffle {
     position: absolute;
     margin: 10px;
-}
-
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background: #fff; 
 }
 
 
