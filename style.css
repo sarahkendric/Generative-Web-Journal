@@ -90,6 +90,16 @@ body {
            width: 34vw;
          }
 
+         #week8{
+           text-align: left;
+           margin-left: 10vw;
+           width: 34vw;
+         }
+
+         #week9 {
+          height: 48vh;
+         }
+
 
          .block{
            background-color: #ff89b5;
