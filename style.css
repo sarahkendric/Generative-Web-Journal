@@ -100,6 +100,16 @@ body {
           height: 48vh;
          }
 
+         #week10{
+           text-align: left;
+           margin-left: 10vw;
+           width: 34vw;
+         }
+
+         #week11 {
+          height: 45vh;
+         }
+
 
          .block{
            background-color: #ff89b5;
@@ -142,6 +152,20 @@ body {
           position: absolute;
           z-index: -20;
           transform: rotate(20deg);
+         }
+
+         .star3{
+           margin-left: 2vw;
+           position: absolute;
+           z-index: -10
+         }
+
+         .sparkles3{
+          margin-left: 4vw;
+          margin-top: -50vh;
+          position: absolute;
+          z-index: -20;
+          transform: rotate(40deg);
          }
 
          #container {
