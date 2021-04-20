@@ -44,9 +44,8 @@ body {
            font-weight: 400;
            font-style: normal;
            stroke: 1px;
-           stroke-color: #ff89b5;
-           fill: none;
-           color: #5d99ee;
+           stroke-color: #5d99ee;
+           color: #ff89b5;
          }
 
          h2 {
@@ -55,9 +54,8 @@ body {
            font-weight: 400;
            font-style: normal;
            stroke: 1px;
-           stroke-color: #5d99ee;
-           fill: none;
-           color: #ff89b5;
+           stroke-color: #ff89b5;
+           color: #5d99ee;
          }
 
          #intro{
@@ -166,6 +164,14 @@ body {
           position: absolute;
           z-index: -20;
           transform: rotate(40deg);
+         }
+
+         .sparkles4{
+          margin-left: 4vw;
+          margin-top: -50vh;
+          position: absolute;
+          z-index: -20;
+          transform: rotate(10deg);
          }
 
          #container {
