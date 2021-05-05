@@ -108,6 +108,20 @@ body {
           height: 45vh;
          }
 
+         #week12 {
+          height: 34vh;
+         }
+
+         #week13{
+           text-align: left;
+           margin-left: 10vw;
+           width: 34vw;
+         }
+
+         #week14 {
+          height: 45vh;
+         }
+
 
          .block{
            background-color: #ff89b5;
@@ -174,14 +188,31 @@ body {
           transform: rotate(10deg);
          }
 
+         .sparkles5{
+          margin-left: 16vw;
+          margin-top: -40vh;
+          position: absolute;
+          z-index: -30;
+          transform: rotate(10deg);
+         }
+
+         .star4{
+           transform: rotate(s50deg);
+           margin-left: 25vw;
+           margin-top: -9vh;
+           z-index: -10;
+           position: absolute;
+         }
+
          #container {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url(imgs/1.jpg);
+    background-image: url(imgs/1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: -5vh;
 }
 
 #shuffle {
